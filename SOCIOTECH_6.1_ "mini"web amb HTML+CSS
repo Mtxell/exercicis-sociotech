@@ -1,12 +1,10 @@
 <! Com no teníem un tema definit, he decidit fer la prova d’aquesta mini web amb la temàtica del treball últim de tipografia: Els còctels. Perquè puc provar l’estructura (HTML) i la capa “estètica ” (CSS). El text utilitzat en els paràgraf no és propi
-
-+ ajuda a HTML y CSS Esencial 
-https://www.youtube.com/watch?list=PLM-Y_YQmMEqCae2LNXpk7S6zCjiZQ3252&time_continue=928&v=TBEQ8WuAUYY>
++ ajuda a HTML y CSS Esencial: https://www.youtube.com/watch?list=PLM-Y_YQmMEqCae2LNXpk7S6zCjiZQ3252&time_continue=928&v=TBEQ8WuAUYY>
 
 
 <html>
    <head>
-    	<title>Còctels :) </title>
+    	<title>Còctels:) </title>
    </head>
   
   <body>
