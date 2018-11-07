@@ -9,15 +9,21 @@
   
   <body>
 	<h1>Còctels</h1>
+	
+	<! Si hi ha poc contigut no és necessari realitzar dos arxius aparts. Es pot realitzar en un sol arxiu html+css posant la següent entrada i finalitzar /style per tancar la part css>
+	<style type="text/css">
 	h1 {
         color: red;
 	font-weight: bold;
         }
+	</style>
 	
         <h2>Caipiroska</h2>
+	<style type="text/css">
         h2 {text-decoration: underline;}
 	<p> Aquest còctel amb vodka és una variació d'un altre còctel molt conegut anomenat Caipirinya,  el qual es va fer molt popular a Sud-amèrica i posteriorment en la resta del món. La seva creació i impuls va ser motivada pels fabricants de vodka i té un sabor fresc, afruitat, amarg i dolç.</p>
 	<a href=“#”>Foto </a>  <! No funciona, no adjuntat>
+	</style>
 	
 	<h3> Components</h3>
 	<ul>
