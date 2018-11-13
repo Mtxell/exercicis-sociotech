@@ -1,0 +1,32 @@
+var enchufada = false;
+var quemada = false;
+	
+var b1;
+
+function setup() {
+
+  frameRate(10);
+  b1 = createButton('enchufala');
+  b1.mousePressed(function(){enchufada=true;});
+}
+
+function draw() {
+
+    // esta enchufada¿
+    if ( enchufada == true ){
+
+      ///bombilla quemada?
+      if ( quemada == true ){
+        createP("cambiame la bombilla nen!");
+      }
+      else {
+        createP("wallapopme!");
+      }
+    }
+    else{
+      createP("enchufame nen!");
+
+
+    }
+
+}
