@@ -6,7 +6,7 @@ var b1;
 function setup() {
 
   frameRate(10);
-  b1 = createButton('enchufala');
+  b1 = createButton('Amiga idea');
   b1.mousePressed(function(){enchufada=true;});
 }
 
