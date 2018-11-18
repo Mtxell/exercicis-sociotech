@@ -1,5 +1,8 @@
-var enchufada = false;
+var aventuras = false;
 var quemada = false;
+var superpoder = false;
+var friendsoluciona = false;
+
 	
 var b1;
 
@@ -7,19 +10,24 @@ function setup() {
 
   frameRate(10);
   b1 = createButton('Amiga idea');
-  b1.mousePressed(function(){enchufada=true;});
+  b1.mousePressed(function(){aventuras=true;});
 }
 
 function draw() {
 
-    // esta enchufada¿
-    if ( enchufada == true ){
+    //aventuras a tope ¿?
+    if ( aventuras == true ){
 
-      ///bombilla quemada?
-      if ( quemada == true ){
-        createP("cambiame la bombilla nen!");
-      }
-      else {
+    	  ///superpoder.leer tu mente ¿?
+    	  if ( superpoder == true ){
+	  	
+		////friend para que lo solucione
+          	if ( friendsoluciona == true ){
+	
+				/*falten 3 pasos
+				createP("dragon");
+   			 	  }
+      	else {
         createP("wallapopme!");
       }
     }
